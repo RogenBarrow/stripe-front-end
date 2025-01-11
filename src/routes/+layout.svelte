@@ -37,9 +37,11 @@
                 </div>
 
                 <!-- Right-aligned actions (hidden on small screens, visible on md and larger screens) -->
-                <div class="hidden md:flex space-x-8">
+                <div class="hidden md:flex space-x-6">
                     <a class="text-white" href="/signin">Sign in</a>
-                    <button class="rounded-full bg-white">Contact Sales</button>
+                    <button class="rounded-full bg-white px-4"
+                        >Contact Sales</button
+                    >
                 </div>
             </div>
         </nav>
